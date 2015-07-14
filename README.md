@@ -1,4 +1,4 @@
-# NCMBiOSFaceook
+# NCMBiOSGoogle
 ニフティクラウド mobile backendを使って**Google認証**するデモアプリです。
 
 ## サンプルアプリケーション概要
