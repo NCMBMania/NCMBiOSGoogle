@@ -1,15 +1,15 @@
 //
-//  NCMBiOS_GoogleTests.swift
-//  NCMBiOS_GoogleTests
+//  NCMBiOSGoogleTests.swift
+//  NCMBiOSGoogleTests
 //
-//  Created by naokits on 7/14/15.
+//  Created by naokits on 7/15/15.
 //  Copyright (c) 2015 Naoki Tsutsui. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class NCMBiOS_GoogleTests: XCTestCase {
+class NCMBiOSGoogleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

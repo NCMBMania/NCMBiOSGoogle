@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NCMBiOS_Google.xcodeproj">
+      location = "self:NCMBiOSGoogle.xcodeproj">
    </FileRef>
 </Workspace>

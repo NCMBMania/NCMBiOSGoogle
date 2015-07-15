@@ -1,8 +1,8 @@
 //
 //  MasterViewController.swift
-//  NCMBiOS_Google
+//  NCMBiOSGoogle
 //
-//  Created by naokits on 7/14/15.
+//  Created by naokits on 7/15/15.
 //  Copyright (c) 2015 Naoki Tsutsui. All rights reserved.
 //
 
