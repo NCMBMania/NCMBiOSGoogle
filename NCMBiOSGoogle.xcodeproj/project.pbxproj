@@ -14,6 +14,7 @@
 		1215A1AC1B566224006D46B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1215A1AB1B566224006D46B5 /* Images.xcassets */; };
 		1215A1AF1B566224006D46B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1215A1AD1B566224006D46B5 /* LaunchScreen.xib */; };
 		1215A1BB1B566224006D46B5 /* NCMBiOSGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215A1BA1B566224006D46B5 /* NCMBiOSGoogleTests.swift */; };
+		1215A1C51B5668B9006D46B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1215A1C41B5668B9006D46B5 /* GoogleService-Info.plist */; };
 		47D0DF85B702308A1687E41C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E3DD1A25AC8F41114FC4E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		1215A1B41B566224006D46B5 /* NCMBiOSGoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCMBiOSGoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1215A1B91B566224006D46B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1215A1BA1B566224006D46B5 /* NCMBiOSGoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCMBiOSGoogleTests.swift; sourceTree = "<group>"; };
+		1215A1C41B5668B9006D46B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7801D648E30509384DCC5E6E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8516350A9CB3CA5A06AA45D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		859E3DD1A25AC8F41114FC4E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 		1215A1A01B566224006D46B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1215A1C41B5668B9006D46B5 /* GoogleService-Info.plist */,
 				1215A1A11B566224006D46B5 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1215A1AA1B566224006D46B5 /* Main.storyboard in Resources */,
+				1215A1C51B5668B9006D46B5 /* GoogleService-Info.plist in Resources */,
 				1215A1AF1B566224006D46B5 /* LaunchScreen.xib in Resources */,
 				1215A1AC1B566224006D46B5 /* Images.xcassets in Resources */,
 			);
