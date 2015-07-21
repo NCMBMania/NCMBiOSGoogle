@@ -16,6 +16,8 @@
 		1215A1BB1B566224006D46B5 /* NCMBiOSGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215A1BA1B566224006D46B5 /* NCMBiOSGoogleTests.swift */; };
 		1215A1C51B5668B9006D46B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1215A1C41B5668B9006D46B5 /* GoogleService-Info.plist */; };
 		1215A1CB1B56AB2F006D46B5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215A1CA1B56AB2F006D46B5 /* Settings.swift */; };
+		12521ED91B5E53FA0095C093 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12521ED81B5E53FA0095C093 /* LoginViewController.swift */; };
+		12521EDB1B5E56670095C093 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12521EDA1B5E56670095C093 /* Todo.swift */; };
 		47D0DF85B702308A1687E41C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 859E3DD1A25AC8F41114FC4E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		1215A1C41B5668B9006D46B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1215A1C61B56A53B006D46B5 /* NCMBiOSGoogle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NCMBiOSGoogle-Bridging-Header.h"; sourceTree = "<group>"; };
 		1215A1CA1B56AB2F006D46B5 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		12521ED81B5E53FA0095C093 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		12521EDA1B5E56670095C093 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		7801D648E30509384DCC5E6E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8516350A9CB3CA5A06AA45D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		859E3DD1A25AC8F41114FC4E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,10 +95,12 @@
 		1215A19F1B566224006D46B5 /* NCMBiOSGoogle */ = {
 			isa = PBXGroup;
 			children = (
-				1215A1A21B566224006D46B5 /* AppDelegate.swift */,
 				1215A1CA1B56AB2F006D46B5 /* Settings.swift */,
+				1215A1A21B566224006D46B5 /* AppDelegate.swift */,
+				12521ED81B5E53FA0095C093 /* LoginViewController.swift */,
 				1215A1A41B566224006D46B5 /* MasterViewController.swift */,
 				1215A1A61B566224006D46B5 /* DetailViewController.swift */,
+				12521EDA1B5E56670095C093 /* Todo.swift */,
 				1215A1A81B566224006D46B5 /* Main.storyboard */,
 				1215A1AB1B566224006D46B5 /* Images.xcassets */,
 				1215A1AD1B566224006D46B5 /* LaunchScreen.xib */,
@@ -284,8 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1215A1A71B566224006D46B5 /* DetailViewController.swift in Sources */,
+				12521EDB1B5E56670095C093 /* Todo.swift in Sources */,
 				1215A1A51B566224006D46B5 /* MasterViewController.swift in Sources */,
 				1215A1CB1B56AB2F006D46B5 /* Settings.swift in Sources */,
+				12521ED91B5E53FA0095C093 /* LoginViewController.swift in Sources */,
 				1215A1A31B566224006D46B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

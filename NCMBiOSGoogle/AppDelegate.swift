@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
 
+        Todo.registerSubclass()
         NCMB.setApplicationKey(kNCMBiOSApplicationKey, clientKey: kNCMBiOSClientKey)
         
         println("カレントユーザ: \(NCMBUser.currentUser())")
@@ -28,14 +29,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         GIDSignIn.sharedInstance().delegate = self
 
-        NCMBGoogleUtils.logInWithGoogleAccountWithBlock { user, error in
-            if error == nil {
-                println("Googleで登録成功")
-            } else {
-                // TODO: キャンセルされた場合の処理を追加する
-                println("Googleで登録失敗: \(error)")
-            }
-        }
         return true
     }
 
