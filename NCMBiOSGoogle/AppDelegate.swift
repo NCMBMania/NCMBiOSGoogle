@@ -16,6 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        NCMB.setApplicationKey(kNCMBiOSApplicationKey, clientKey: kNCMBiOSClientKey)
+
+        
+        println("カレントユーザ: \(NCMBUser.currentUser())")
+
+        var configureError: NSError?
+        GGLContext.sharedInstance().configureWithError(&configureError)
+        if configureError != nil {
+            println("設定エラー: \(configureError)")
+        }
+        
+        NCMBGoogleUtils.logInWithGoogleAccountWithBlock { user, error in
+            if error == nil {
+                println("Googleで登録成功")
+            } else {
+                println("Googleで登録失敗: \(error)")
+            }
+        }
+
         return true
     }
 
@@ -41,6 +60,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        return GIDSignIn.sharedInstance().handleURL(url, sourceApplication: sourceApplication, annotation: annotation)
+    }
 }
 
