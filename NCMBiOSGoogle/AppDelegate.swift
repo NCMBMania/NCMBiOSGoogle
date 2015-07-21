@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
 
+        Todo.registerSubclass()
         NCMB.setApplicationKey(kNCMBiOSApplicationKey, clientKey: kNCMBiOSClientKey)
         
         println("カレントユーザ: \(NCMBUser.currentUser())")
