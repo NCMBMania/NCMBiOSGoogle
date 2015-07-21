@@ -59,6 +59,7 @@ Fabric.framework/
 
 
 ## 関連情報
+- [Integrating Google Sign-In into your iOS app | Google Sign-In for iOS | Google Developers](https://developers.google.com/identity/sign-in/ios/sign-in?ver=swift)
 
 - [ニフティクラウド mobile backend](http://mb.cloud.nifty.com/)
 
