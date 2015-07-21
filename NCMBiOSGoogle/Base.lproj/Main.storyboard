@@ -64,7 +64,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NhM-Hv-K8f" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="3qh-04-edB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-148" y="812"/>
+            <point key="canvasLocation" x="-96" y="834"/>
         </scene>
         <!--Master-->
         <scene sceneID="VgW-fR-Quf">
@@ -103,7 +103,13 @@
                             <outlet property="delegate" destination="pGg-6v-bdr" id="Y6K-Cp-Qkv"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="tQt-TN-PWz"/>
+                    <navigationItem key="navigationItem" title="Master" id="tQt-TN-PWz">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="wIX-Ap-mlJ">
+                            <connections>
+                                <segue destination="bMZ-T9-c3r" kind="presentation" identifier="toLogin" id="WFj-Ee-kTl"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="bMZ-T9-c3r" kind="presentation" identifier="toLogin" id="woc-aX-Dt4"/>
                     </connections>
@@ -149,4 +155,7 @@
             <point key="canvasLocation" x="1343" y="64"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="WFj-Ee-kTl"/>
+    </inferredMetricsTieBreakers>
 </document>
