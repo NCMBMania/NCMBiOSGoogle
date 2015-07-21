@@ -28,14 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         GIDSignIn.sharedInstance().delegate = self
 
-        NCMBGoogleUtils.logInWithGoogleAccountWithBlock { user, error in
-            if error == nil {
-                println("Googleで登録成功")
-            } else {
-                // TODO: キャンセルされた場合の処理を追加する
-                println("Googleで登録失敗: \(error)")
-            }
-        }
         return true
     }
 
